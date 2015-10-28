@@ -1,0 +1,46 @@
+<div id="cl-wrapper" class="login-container">
+  <div class="middle-login">
+    <div class="block-flat">
+      <div class="header">
+        <h3 class="text-center"><img class="logo-img" src="images/logo.png" alt="logo"/></h3>
+      </div>
+      <div>
+        <form style="margin-bottom: 0px !important;" class="form-horizontal">
+          <div class="content">
+            <h4 class="title">Connexion</h4>
+
+            <div ng-repeat="message in messages">
+              <div class="alert alert-danger alert-white rounded">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <div class="icon"><i class="fa fa-times-circle"></i></div>
+                <strong>Erreur!</strong> {{message}}
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-12">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                  <input type="text" placeholder="Email" id="email" class="form-control" ng-model="email">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-12">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                  <input type="password" placeholder="Mot de passe" id="password" class="form-control" ng-model="password">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="foot">
+            <button class="btn btn-primary" data-dismiss="modal" ng-click="login()">Se connecter à bziiit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="text-center out-links"><a href="#">&copy; 2015 bziiit</a></div>
+  </div>
+</div>

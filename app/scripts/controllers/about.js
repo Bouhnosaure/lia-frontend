@@ -8,10 +8,6 @@
  * Controller of the liaFrontendApp
  */
 angular.module('liaFrontendApp')
-  .controller('AboutCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('AboutCtrl', function ($log) {
+    $log.debug('AboutCtrl - initialize');
   });

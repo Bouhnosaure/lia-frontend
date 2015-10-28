@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Gruntfile.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/about.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/auth.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/home.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/directives/image-error.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/directives/password-match.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/services/jquery-core.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/services/upload.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/services/users.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/styles/custom.less" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/styles/less/config-bziiit.less" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/styles/main.less" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/app.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/home.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/login.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bower.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/package.json" charset="UTF-8" />
+  </component>
+</project>
