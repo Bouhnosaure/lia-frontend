@@ -31,7 +31,7 @@ angular
   ])
 
   .constant('ConfigData', {
-    'api_endpoint': 'http://api.bziiit.com/'
+    'api_endpoint': 'http://lia-api.dev/'
   })
 
   .constant('angularMomentConfig', {
